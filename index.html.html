@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Rose from Edwin 💌</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- STEP 1 -->
+  <div class="container step" id="step1">
+    <h1>wanna go on a date? 💜</h1>
+    <img src="https://i.imgur.com/8Km9tLL.jpg" alt="cute cat">
+    <div class="btn-wrap">
+      <button id="yesBtn">YES!! 🥺</button>
+      <button id="noBtn">no</button>
+    </div>
+  </div>
+
+  <!-- STEP 2 -->
+  <div class="container step hidden" id="step2">
+    <h1>yayyy! 🎉</h1>
+    <img src="https://i.imgur.com/8Km9tLL.jpg" alt="cute cat">
+    <h2>Rose, where do you wanna go?</h2>
+    <select id="datePlace">
+      <option>pick one! 👇</option>
+      <option>movie date 🎬🍿</option>
+      <option>snake park 🐍</option>
+      <option>go karting 🏎️💨</option>
+    </select>
+    <button id="next2">next →</button>
+  </div>
+
+  <!-- STEP 3 -->
+  <div class="container step hidden" id="step3">
+    <h2>when works for you, Rose?</h2>
+    <label>Date: <input type="date" id="dateInput"></label>
+    <label>Time: 
+      <select id="timeInput">
+        <option>morning</option>
+        <option>afternoon</option>
+        <option>evening</option>
+      </select>
+    </label>
+    <button id="next3">next →</button>
+  </div>
+
+  <!-- STEP 4 -->
+  <div class="container step hidden" id="step4">
+    <h2>do you need a ride? 🚗</h2>
+    <button class="rideBtn">yes please!</button>
+    <button class="rideBtn">i'm good</button>
+  </div>
+
+  <!-- STEP 5 -->
+  <div class="container step hidden" id="step5">
+    <h1>it's a date! 💖💖</h1>
+    <p>can't wait, Rose! - Edwin</p>
+    <p>I'll text you the details 💌</p>
+  </div>
+
+  <canvas id="confetti"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
